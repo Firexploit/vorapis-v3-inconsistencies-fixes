@@ -1,0 +1,137 @@
+.comments-iframe-container {
+    max-width: unset;
+}
+.watch8 #watch-description-toggle .yt-uix-button-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.watch-actions-stats-rats .stats-bragbar-container {
+    width: 802px;
+}
+.watch-actions-stats-rats .stats-charts-container {
+    width: 800px;
+}
+.watch-actions-stats-rats .stats-chart-menu {
+    width: 800px;
+}
+.watch-actions-stats-rats .stats-chart-gviz {
+    width: 800px;
+}
+.video-metric-section.table-row-view {
+    width: 800px;
+}
+.google-chart-container div.google-chart {
+    left: 488px;
+}
+.country-list-chart .country-list {
+    width: 478px;
+}
+.distiller_content {
+    padding: 20px 0px 0px 0px;
+    border-top: 1px solid #e2e2e2;
+}
+#page.watch {
+    padding-top: 10px;
+}
+.cardified-page .yt-card {
+    padding: 15px ;
+}
+#watch-discussion {
+    padding: 15px;
+}
+#watch7-headline {
+    padding: 15px 15px 9px;
+}
+#watch7-user-header {
+    padding: 0 15px 15px;
+}
+#watch7-action-buttons {
+    padding: 0 15px;
+}
+
+.guide-flyout, .guide-collections-flyout {
+    padding: 12px;
+}
+#search-secondary-col-contents {
+    margin-top: 10px;
+    
+}
+.cardified-page #watch7-sidebar-contents {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.cardified-page.exp-individual-cards-watch #watch7-sidebar {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.watch8 #watch-description-toggle {
+    margin-top: 20px;
+}
+.site-center-aligned.flex-width-enabled .feeds-mode .yt-shelf-grid-item {
+    width: 190px;
+    margin-right: 8px;
+}
+
+.feed-item-container.browse-list-item-container.yt-card {
+    margin: unset;
+}
+
+.individual-feed {
+    margin-top: 10px;
+}
+.cardified-page.exp-individual-cards .branded-page-v2-secondary-col {
+    padding-top: 0px;
+}
+.cardified-less .branded-page-v2-primary-col .branded-page-box, .cardified-less .branded-page-v2-primary-col .branded-page-box-padding {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.yt-scrollbar ::-webkit-scrollbar-track {
+    border-left: unset;
+    -webkit-box-shadow: unset;
+}
+
+.view_manager-entity > #body-container {
+    padding-bottom: 35px;
+}
+
+.distiller_yt-sb .oz-comment_post-dismiss {
+    top: 88px;
+    right: 64px;
+    border-color: #d3d3d3;
+    background: #f8f8f8;
+    border: 1px solid;
+    height: 26px;
+    width: 52px;
+    border-radius: 2px;
+    min-width: 34px;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.distiller-button.jfk-button-action {
+    border-color: #1b7fcc;
+    background: #1b7fcc;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    height: 26px;
+    float: right;
+    padding: 0 10px 0 10px;
+    min-width: 34px;
+}
+.distiller-button.jfk-button-action:hover {
+    background: #126db3;
+}
+.distiller-button.jfk-button-action:active {
+    background: #095b99;
+}
+.distiller_yt-sb .action_bar .right_actions {
+    float: unset;
+}
+.distiller_yt-sb {
+    margin: unset;
+}
