@@ -54,15 +54,19 @@
 }
 #search-secondary-col-contents {
     margin-top: 10px;
-    
+    margin-left: unset;
 }
-.cardified-page #watch7-sidebar-contents {
-    padding-left: 10px;
-    padding-top: 20px;
+.branded-page-v2-secondary-col #watch7-sidebar .watch-sidebar-section {
+    margin-left: unset;
 }
 .cardified-page.exp-individual-cards-watch #watch7-sidebar {
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
     box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.watch-card-rhs {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 315px;
 }
 .watch8 #watch-description-toggle {
     margin-top: 20px;
