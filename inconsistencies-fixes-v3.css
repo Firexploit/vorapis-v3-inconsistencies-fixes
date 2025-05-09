@@ -90,6 +90,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.cardified-less .branded-page-v2-primary-col .branded-page-gutter-padding, .cardified-less .branded-page-v2-header .branded-page-gutter-padding {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+div#gh-activityfeed.branded-page-v2-body.branded-page-v2-primary-column-content {
+    margin-top: 10px;
+}
 
 .yt-scrollbar ::-webkit-scrollbar-track {
     border-left: unset;
@@ -103,9 +110,8 @@
 .distiller_yt-sb .oz-comment_post-dismiss {
     top: 88px;
     right: 64px;
-    border-color: #d3d3d3;
     background: #f8f8f8;
-    border: 1px solid;
+    border: 1px solid #d3d3d3;
     height: 26px;
     width: 52px;
     border-radius: 2px;
@@ -115,7 +121,29 @@
     text-align: center;
     line-height: 27px;
 }
-
+.distiller_yt-sb .oz-comment_post-dismiss:hover {
+    background: #f0f0f0;
+    border-color: #c6c6c6;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+.distiller_yt-sb .oz-comment_post-dismiss:active {
+    background: #e9e9e9;
+    border-color: #c6c6c6;
+    box-shadow: inset 0 1px 0 #ddd;
+}
+div.oz-dismiss-button.oz-comment_post-dismiss:after {
+    content: 'Cancel';
+    color: #333;
+}
+.oz-dismiss-button {
+    opacity: unset;
+}
+.oz-notification:hover .oz-dismiss-button, .oz-comment_post-dismiss:hover, .oz-widget-dismiss:hover {
+    opacity: unset;
+}
+.oz-notification:hover .oz-dismiss-button, .oz-comment_post-dismiss:active, .oz-widget-dismiss:active {
+    opacity: unset;
+}
 .distiller-button.jfk-button-action {
     border-color: #1b7fcc;
     background: #1b7fcc;
@@ -139,3 +167,58 @@
 .distiller_yt-sb {
     margin: unset;
 }
+.livestream_chat .create_message .distiller_yt-sb .action_bar .jfk-button-action {
+    border-color: #1b7fcc;
+    background: #1b7fcc;
+    color: #fff;
+}
+.livestream_chat .create_message .distiller_yt-sb .action_bar .jfk-button-action:hover {
+    background: #126db3;
+}
+.livestream_chat .create_message .distiller_yt-sb .action_bar .jfk-button-action:active {
+    background: #095b99;
+}
+.livestream_chat .create_message .distiller_yt-sb .oz-comment_post-dismiss {
+    background: no-repeat url(https://ssl.gstatic.com/s2/oz/images/sprites/notsg-eb27f5870940f5aacf4b28805c7d5ad3.png) -18px -598px;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    border: unset;
+    right: 83px;
+}
+.yt-uix-button-primary, .yt-uix-button-primary[disabled], .yt-uix-button-primary[disabled]:hover, .yt-uix-button-primary[disabled]:active, .yt-uix-button-primary[disabled]:focus {
+    float: right;
+    bottom: 10px;
+    position: relative;
+}
+
+/*.view_manager-entity > #body-container {
+    min-height: 100%;
+}
+.view_manager-entity #footer-container {
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+}
+*/
+/* FUCK
+div#watch7-playlist-tray-container.watch-sidebar.yt-scrollbar.yt-scrollbar-wide.yt-scrollbar-dark.player-height {
+    width: 410px;
+    max-width: 410px;
+}
+div.watch7-playlist-bar-right.yt-uix-button-panel {
+    width: 410px;
+    max-width: 410px;    
+}
+*/
+
+/*span.subscribe-label:after {
+    content: 'whatever it is you want to add';
+    visibility: visible;
+    display: block;
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    top: 20px;
+}
+*/
