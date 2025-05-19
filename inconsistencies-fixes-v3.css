@@ -185,11 +185,24 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
     min-width: 16px;
     border: unset;
     right: 83px;
+    opacity: .27;
+    box-shadow: unset;
+}
+.livestream_chat .create_message .distiller_yt-sb .oz-comment_post-dismiss:after {
+    content: unset;
+}
+.livestream_chat .create_message .distiller_yt-sb .oz-comment_post-dismiss:hover {
+    opacity: .5;
+}
+.livestream_chat .create_message .distiller_yt-sb .oz-comment_post-dismiss:active {
+    opacity: .7;
 }
 .yt-uix-button-primary, .yt-uix-button-primary[disabled], .yt-uix-button-primary[disabled]:hover, .yt-uix-button-primary[disabled]:active, .yt-uix-button-primary[disabled]:focus {
     float: right;
-    bottom: 10px;
     position: relative;
+}
+.distiller-post-embed .distiller_yt-thread .thread .post .action_bar {
+    margin-top: 10px;
 }
 
 /*.view_manager-entity > #body-container {
@@ -212,13 +225,56 @@ div.watch7-playlist-bar-right.yt-uix-button-panel {
 }
 */
 
-/*span.subscribe-label:after {
-    content: 'whatever it is you want to add';
-    visibility: visible;
-    display: block;
-    position: absolute;
-    background-color: red;
-    padding: 5px;
-    top: 20px;
+span.subscribe-label:after {
+    content: 'Subscribe';
+    font-size: 12px;
 }
-*/
+span.subscribe-label {
+    font-size: 0px;
+}
+span.subscribed-label:after {
+    content: 'Subscribed';
+    font-size: 12px;
+}
+span.subscribed-label {
+    font-size: 0px;
+}
+span.unsubscribe-label:after {
+    content: 'Unsubscribe';
+    font-size: 12px;
+}
+span.unsubscribe-label {
+    font-size: 0px;
+}
+
+.appbar-mini-cinema #player.watch-medium:before {
+    animation: .3s ease teather
+}
+@keyframes teather {
+0% {
+    background-color: transparent;
+}
+100% {
+    background-color: #1b1b1b;
+}
+}
+
+span.watch-title-text-container {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    word-wrap: break-word;
+}
+#watch7-headline {
+    padding: 15px 15px 10px;
+}
+#watch7-headline.yt-uix-expander-collapsed h1 {
+    margin-bottom: unset;
+}
+#watch7-headline h1 {
+    line-height: unset;
+}
+
+div.yt-alert.yt-alert-default.yt-alert-success {
+    margin-top: 20px;
+}
