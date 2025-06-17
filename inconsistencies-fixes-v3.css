@@ -201,6 +201,32 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
     float: right;
     position: relative;
 }
+.jfk-button[disabled] {
+    pointer-events: unset;
+    opacity: unset;
+    background: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    font-weight: bold;
+    font-size: 11px;
+}
+.distiller-dropdown-button:hover {
+    background: #f0f0f0;
+    border-color: #c6c6c6;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+.yt-uix-button[disabled], .yt-uix-button[disabled]:hover, .yt-uix-button[disabled]:active, .yt-uix-button[disabled]:focus {
+    opacity: unset;
+}
+.jfk-button-standard:active, .jfk-button-standard:hover:active {
+    background: #e9e9e9;
+    border-color: #c6c6c6;
+    box-shadow: inset 0 1px 0 #ddd;
+    color: unset;
+    opacity: unset;
+}
+#watch7-player-age-gate-content button, #watch7-player-age-gate-content .date-selector {
+    float: left;
+}
 .distiller-post-embed .distiller_yt-thread .thread .post .action_bar {
     margin-top: 10px;
 }
@@ -214,7 +240,10 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
     position: absolute;
 }
 */
-/* FUCK
+div.view_manager-entity {
+    height: 780px;
+}
+
 div#watch7-playlist-tray-container.watch-sidebar.yt-scrollbar.yt-scrollbar-wide.yt-scrollbar-dark.player-height {
     width: 410px;
     max-width: 410px;
@@ -223,7 +252,15 @@ div.watch7-playlist-bar-right.yt-uix-button-panel {
     width: 410px;
     max-width: 410px;    
 }
-*/
+div#playlist-tray.playlist-tray {
+    width: 1277px;
+}
+.appbar-flexwatch-mini.site-center-aligned #player, .appbar-flexwatch-mini.site-center-aligned #page.watch #content {
+    width: 1258px;
+}
+div.watch7-playlist-bar {
+    width: 1264px;
+}
 
 span.subscribe-label:after {
     content: 'Subscribe';
@@ -277,4 +314,8 @@ span.watch-title-text-container {
 
 div.yt-alert.yt-alert-default.yt-alert-success {
     margin-top: 20px;
+}
+
+.pl-video-list .playlist-pager {
+    margin: 15px 30px;
 }
