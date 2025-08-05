@@ -5,26 +5,28 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.watch-actions-stats-rats .stats-bragbar-container {
-    width: 802px;
-}
-.watch-actions-stats-rats .stats-charts-container {
-    width: 800px;
-}
-.watch-actions-stats-rats .stats-chart-menu {
-    width: 800px;
-}
-.watch-actions-stats-rats .stats-chart-gviz {
-    width: 800px;
-}
-.video-metric-section.table-row-view {
-    width: 800px;
-}
-.google-chart-container div.google-chart {
-    left: 488px;
-}
-.country-list-chart .country-list {
-    width: 478px;
+@media only screen and (min-width: 1495px) {
+    .watch-actions-stats-rats .stats-bragbar-container {
+        width: 802px;
+    }
+    .watch-actions-stats-rats .stats-charts-container {
+        width: 800px;
+    }
+    .watch-actions-stats-rats .stats-chart-menu {
+        width: 800px;
+    }
+    .watch-actions-stats-rats .stats-chart-gviz {
+        width: 800px;
+    }
+    .video-metric-section.table-row-view {
+        width: 800px;
+    }
+    .google-chart-container div.google-chart {
+        left: 488px;
+    }
+    .country-list-chart .country-list {
+        width: 478px;
+    }
 }
 .distiller_content {
     padding: 20px 0px 0px 0px;
@@ -71,6 +73,12 @@
 .watch8 #watch-description-toggle {
     margin-top: 20px;
 }
+.watch8 #watch7-secondary-actions .yt-uix-button:nth-child(3) {
+    margin-left: 2px;
+}
+#watch7-secondary-actions .yt-uix-button {
+    margin-left: 2px;
+}
 .site-center-aligned.flex-width-enabled .feeds-mode .yt-shelf-grid-item {
     width: 190px;
     margin-right: 8px;
@@ -93,6 +101,8 @@
 .cardified-less .branded-page-v2-primary-col .branded-page-gutter-padding, .cardified-less .branded-page-v2-header .branded-page-gutter-padding {
     margin-top: unset;
     margin-bottom: unset;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
 }
 div#gh-activityfeed.branded-page-v2-body.branded-page-v2-primary-column-content {
     margin-top: 10px;
@@ -319,3 +329,23 @@ div.yt-alert.yt-alert-default.yt-alert-success {
 .pl-video-list .playlist-pager {
     margin: 15px 30px;
 }
+
+li.feed-list-item.feed-item-container.yt-card {
+    margin: 0px 0px;
+}
+.distiller_streamcontent.feed .distiller_yt-thread {
+    margin-left: unset;
+    margin-right: unset;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cardified-page .feed-item-container.yt-card:first-child {
+    margin-top: unset;
+}
+div.branded-page-v2-subnav-container.branded-page-gutter-padding.clearfix {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*.distiller_yt-thread .thread {
+    padding-top: 5px;
+}*/
