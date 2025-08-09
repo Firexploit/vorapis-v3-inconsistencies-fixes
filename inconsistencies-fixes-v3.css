@@ -293,6 +293,9 @@ span.unsubscribe-label:after {
 span.unsubscribe-label {
     font-size: 0px;
 }
+.yt-uix-button-subscribe-unbranded.hover-enabled.yt-uix-button-has-icon.yt-uix-button-size-default.yt-uix-button.yt-uix-subscription-button > .yt-uix-button-content > ::after {
+    font-size: 10px;
+}
 
 .appbar-mini-cinema #player.watch-medium:before {
     animation: .3s ease teather
@@ -333,11 +336,31 @@ div.yt-alert.yt-alert-default.yt-alert-success {
 li.feed-list-item.feed-item-container.yt-card {
     margin: 0px 0px;
 }
+
+div.distiller_yt-thread:nth-of-type(1) > .thread > .post {
+    padding-top: 10px !important;
+}
 .distiller_streamcontent.feed .distiller_yt-thread {
-    margin-left: unset;
-    margin-right: unset;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: #fff;
+    margin: unset;
+}
+.distiller_streamcontent.feed .distiller_yt-thread .thread .post {
+    margin-left: 61px;
+}
+.distiller_streamcontent.feed .post .distiller_yt-post-content>a:first-child img, .distiller_streamcontent.feed .post .distiller_yt-post-content>a:first-child::after {
+    left: 15px;
+}
+.distiller_streamcontent.feed>.distiller_yt-thread>.thread>.post>.comment>.distiller_yt-post-content>a>.distiller_yt-thread_avatar {
+    margin: 0 0 0 -56px;
+}
+.distiller_streamcontent.feed .backstage_fancy_comment_header.distiller_yt-sb-standin, .distiller_streamcontent.feed .distiller_yt-post_comment_section .distiller_yt-post-content {
+    padding-left: 61px;
+}
+.distiller_streamcontent.feed .backstage_fancy_comment_header.distiller_yt-sb-standin .callout {
+    left: 108px;
+}
+div.loader {
+    margin-left: 66px !important;
 }
 .cardified-page .feed-item-container.yt-card:first-child {
     margin-top: unset;
@@ -349,3 +372,23 @@ div.branded-page-v2-subnav-container.branded-page-gutter-padding.clearfix {
 /*.distiller_yt-thread .thread {
     padding-top: 5px;
 }*/
+.expanded-shelf-content-item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+div.feed-container.channels-browse-content-list.context-data-container.branded-page-box-padding {
+    padding: unset;
+}
+div.context-data-item.yt-lockup.clearfix.yt-lockup-tile.yt-lockup-video.channels-browse-content-list-item.yt-card {
+    margin: unset;
+}
+.yt-lockup.yt-lockup-tile {
+    max-width: unset;
+}
+
+.flex-width-enabled .lohp-large-shelf-container {
+    padding: unset;
+}
+.flex-width-enabled .lohp-medium-shelves-container {
+    padding: 0px 0px 0px 20px;
+}
