@@ -130,6 +130,8 @@ div#gh-activityfeed.branded-page-v2-body.branded-page-v2-primary-column-content 
     font-size: 11px;
     text-align: center;
     line-height: 27px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
 }
 .distiller_yt-sb .oz-comment_post-dismiss:hover {
     background: #f0f0f0;
@@ -154,7 +156,28 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
 .oz-notification:hover .oz-dismiss-button, .oz-comment_post-dismiss:active, .oz-widget-dismiss:active {
     opacity: unset;
 }
-.distiller-button.jfk-button-action {
+.distiller-standard-button {
+    background: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+.distiller-standard-button:hover {
+    background: #f0f0f0;
+    border-color: #c6c6c6;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+.distiller-standard-button:active {
+    background: #e9e9e9;
+    border-color: #c6c6c6;
+    box-shadow: inset 0 1px 0 #ddd;
+}
+.jfk-button-group .start {
+    background: #e9e9e9;
+    border-color: #c6c6c6;
+    box-shadow: inset 0 1px 0 #ddd;
+}
+.jfk-button-action {
     border-color: #1b7fcc;
     background: #1b7fcc;
     color: #fff;
@@ -162,14 +185,19 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
     font-size: 11px;
     height: 26px;
     float: right;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 10px !important;
     min-width: 34px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
 }
-.distiller-button.jfk-button-action:hover {
+.jfk-button-action:hover {
     background: #126db3;
+    border: 1px solid #1b7fcc;
 }
-.distiller-button.jfk-button-action:active {
+.jfk-button-action:active {
     background: #095b99;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.5);
 }
 .distiller_yt-sb .action_bar .right_actions {
     float: unset;
@@ -207,7 +235,7 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
 .livestream_chat .create_message .distiller_yt-sb .oz-comment_post-dismiss:active {
     opacity: .7;
 }
-.yt-uix-button-primary, .yt-uix-button-primary[disabled], .yt-uix-button-primary[disabled]:hover, .yt-uix-button-primary[disabled]:active, .yt-uix-button-primary[disabled]:focus {
+.reply_poster > .distiller_yt-sb > .body > .action_bar > .right_actions {
     float: right;
     position: relative;
 }
@@ -218,11 +246,13 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
     border: 1px solid #d3d3d3;
     font-weight: bold;
     font-size: 11px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
 }
 .distiller-dropdown-button:hover {
     background: #f0f0f0;
     border-color: #c6c6c6;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10) !important;
 }
 .yt-uix-button[disabled], .yt-uix-button[disabled]:hover, .yt-uix-button[disabled]:active, .yt-uix-button[disabled]:focus {
     opacity: unset;
@@ -230,7 +260,7 @@ div.oz-dismiss-button.oz-comment_post-dismiss:after {
 .jfk-button-standard:active, .jfk-button-standard:hover:active {
     background: #e9e9e9;
     border-color: #c6c6c6;
-    box-shadow: inset 0 1px 0 #ddd;
+    box-shadow: inset 0 1px 0 #ddd !important;
     color: unset;
     opacity: unset;
 }
